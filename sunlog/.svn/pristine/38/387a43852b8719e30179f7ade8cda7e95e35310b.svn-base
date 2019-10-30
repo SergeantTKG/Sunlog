@@ -1,0 +1,48 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<!-- 全体の CSS -->
+<link rel="stylesheet"  href="${pageContext.request.contextPath}/css/style.css" type="text/css">
+
+<!-- Slidebars CSS -->
+<link rel="stylesheet" href="${pageContext.request.contextPath}/css/slidebars.css">
+<!-- jQuery  -->
+<script src="${pageContext.request.contextPath}/js/jquery-3.4.1.js"></script>
+<!-- Slidebars -->
+<script src="${pageContext.request.contextPath}/js/slidebars.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>サンログ - 口コミで探せる食事情報サイト</title>
+</head>
+<body>
+	<div canvas="container">
+		<!--ここにページのコンテンツ内容-->
+		<div class="main-content">
+
+			<div class="menu">
+
+				<p class="sb-toggle-left">OPEN MENU</p>
+				<iframe class="flame1"></iframe>
+			</div>
+		</div>
+	</div>
+
+	<div off-canvas="sb-left left overlay">
+		<div class="left-content">
+			<!-- サイドメニューの内容 -->
+			<ul>
+				<li><a href="${pageContext.request.contextPath}/resist.jsp">ユーザー登録</a></li>
+				<li><a href="${pageContext.request.contextPath}/WelcomServlet">メイン</a></li>
+				<li><a href="${pageContext.request.contextPath}/LoginServlet">ログイン</a></li>
+			</ul>
+			<p class="sb-close">CLOSE</p>
+		</div>
+	</div>
+
+	<script src="${pageContext.request.contextPath}/js/jquery-3.4.1.js"></script>
+	<script src="${pageContext.request.contextPath}/js/sidemenu.js"></script>
+
+</body>
+</html>

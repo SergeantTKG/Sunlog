@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/*
+<!--追加しているスタイル-->
+*/
+/*
+<style type="text/css">
+*/
+.main-content,
+.left-content,
+.right-content,
+.top-content,
+.bottom-content {
+	padding:5px;
+}
+
+.left-content div,
+.right-content div,
+.top-content div,
+.bottom-content div {
+	cursor: pointer;
+}
+
+.menu,
+.sb-close{
+	cursor: pointer;
+}
+.menu p{
+    border: 2px dotted;
+    padding: 5px;
+	text-align: center;
+	width:auto;
+	height:auto;
+
+}
+.maindiv p{
+	border: 2px solid;
+	padding: 5px;
+	text-align: center;
+	width:auto;
+	height:auto;
+}
+.left-content p,
+.right-content p,
+.top-content p,
+.bottom-content p {
+    border: 2px dotted;
+    padding: 5px;
+}
+
+ul,li{
+	list-style-type: none;
+}
+ul{
+	padding-inline-start: 0px;
+}
+.left-content {
+	width: max-content;
+}
+.sb-close{
+	text-align: center;
+	padding: 5px;
+}
+/*
+</style>
+*/

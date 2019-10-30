@@ -1,0 +1,22 @@
+package model;
+
+public class LoginBeans {
+
+	private String userName;
+	private String userPass;
+
+	public LoginBeans(String userName, String userPass) {
+		this.userName = userName;
+		this.userPass = userPass;
+	}
+
+	public String getUserName() {
+		return userName;
+	}
+
+	public String getUserPass() {
+		return userPass;
+	}
+
+
+}

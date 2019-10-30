@@ -1,0 +1,75 @@
+package model;
+
+public class ShopBeans{
+
+	private int shopID;
+
+	private String shopNAME;
+
+	private String shopTELL;
+
+	private String shopKUCHIKOMI;
+
+	private int shopGOOD;
+
+	private int shopMENU;
+
+	private String shopTAG;
+
+	public int getShopID() {
+		return shopID;
+	}
+
+	public void setShopID(int shopID) {
+		this.shopID = shopID;
+	}
+
+	public String getShopNAME() {
+		return shopNAME;
+	}
+
+	public void setShopNAME(String shopNAME) {
+		this.shopNAME = shopNAME;
+	}
+
+	public String getShopTELL() {
+		return shopTELL;
+	}
+
+	public void setShopTELL(String shopTELL) {
+		this.shopTELL = shopTELL;
+	}
+
+	public String getShopKUCHIKOMI() {
+		return shopKUCHIKOMI;
+	}
+
+	public void setShopKUCHIKOMI(String shopKUCHIKOMI) {
+		this.shopKUCHIKOMI = shopKUCHIKOMI;
+	}
+
+	public int getShopGOOD() {
+		return shopGOOD;
+	}
+
+	public void setShopGOOD(int shopGOOD) {
+		this.shopGOOD = shopGOOD;
+	}
+
+	public int getShopMENU() {
+		return shopMENU;
+	}
+
+	public void setShopMENU(int shopMENU) {
+		this.shopMENU = shopMENU;
+	}
+
+	public String getShopTAG() {
+		return shopTAG;
+	}
+
+	public void setShopTAG(String shopTAG) {
+		this.shopTAG = shopTAG;
+	}
+
+}

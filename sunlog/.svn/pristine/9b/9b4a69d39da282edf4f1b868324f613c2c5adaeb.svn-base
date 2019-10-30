@@ -1,0 +1,90 @@
+body{
+	display: inline-block;
+	text-align: center;
+	background-color: #fde1a2;
+	color:#c53e10;
+
+	/*
+	width:100%;
+	margin-right:auto;
+	margin-left:auto;
+	*/
+}
+
+/*
+div{
+	align:center;
+	text-align: center
+}
+*/
+
+
+/*メインボタン*/
+.menu{
+	text-align:left;
+}
+/*divの各クラスの余白*/
+.main-content,
+.left-content,
+.right-content,
+.top-content,
+.bottom-content {
+	padding:20px;
+}
+
+/*divタグ設定*/
+.main-content div,
+.left-content div,
+.right-content div,
+.top-content div,
+.bottom-content div {
+	/*カーソルのポインタ設定*/
+	cursor: pointer;
+}
+
+/*リストのプロパティ設定*/
+ul,li{
+	list-style-type: none;
+	margin-left :0 auto;
+}
+/*divのmenuクラスのpタグの設定*/
+.menu p {
+    border: 1px dotted;
+    padding: 5px;
+}
+
+/*サイドメニューとして設定するpタグのプロパティ*/
+.left-content p,
+.right-content p,
+.top-content p,
+.bottom-content p {
+    border: 1px dotted;
+    padding: 5px;
+}
+
+/*サイドメニュー全体の中央寄せ*/
+.left-content{
+	text-align: left
+}
+
+/*サイドメニューの幅*/
+.sb-toggle-left{
+	width:100px;
+}
+
+.main-content{
+	display: table-cell;
+}
+
+/*iframe*/
+.flame1{
+	width:100%;
+	height:100%;
+	border: none
+}
+
+/*リンク色*/
+a:link { color: #88ec00; }    /* 未訪問のリンク */
+a:visited { color: #808080; } /* 訪問済みのリンク */
+a:hover { color: #76ec00; }   /* ポイント時のリンク */
+a:active { color: #808080; }  /* 選択中のリンク */
